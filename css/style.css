@@ -1,0 +1,79 @@
+h1{
+    margin-top: 12px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+body{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 200));
+    height: 97vh;
+}
+
+.container {
+    max-width: 955px;
+    margin: auto;
+    background: url('https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png') center;
+    height: 50vh;
+    padding:5px 33px;
+    margin-bottom: 0px;
+    overflow-y: auto;
+    padding-bottom: 3px;
+    border: 2px solid purple;
+}
+
+.message {
+    background-color: white;
+    width: 24%;
+    padding: 10px;
+    margin: 4px 12px;
+    border: 1px solid #d9d9d6;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+    }
+.center{
+    background-color:  #d5edf7;
+    color: #4b5a63;
+    text-align: center;
+    padding: 6px;
+    margin: 4px auto;
+    clear: both;
+}
+.right{
+    background-color: #e0ffc5;
+    float: right;
+    clear: both;
+}
+#send-container{
+    display: block;
+    margin-top: 0px;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp{
+    margin-top: 0px;
+    width: 90%;
+    border: 1px solid #d9d9d6;
+    border-radius: 10px;
+    height: 27px;
+    outline: none;
+}
+.btn{
+    margin-left: 5px;
+    background-color: #018a7d;
+    color: white;
+    border-radius: 6px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
