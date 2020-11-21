@@ -1,19 +1,27 @@
 {
-  "name": "nodeserver",
+  "name": "v-chat",
   "version": "1.0.0",
-  "description": "nodeserver for Vchat",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start" : "node index.js"
-  },
-  "author": "Tanuja",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "postman": "^0.2.0",
     "socket.io": "^3.0.3"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanuja1521/v-chat.git"
+  },
+  "author": "tanuja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanuja1521/v-chat/issues"
+  },
+  "homepage": "https://github.com/tanuja1521/v-chat#readme"
 }

@@ -1,5 +1,5 @@
 // NodeServer which will handle socketIo connections
-const io = require('socket.io')(3000)
+const io = require('socket.io')(8080)
 var cors = require('cors');
 
 const users = {};
